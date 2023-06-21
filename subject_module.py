@@ -1,5 +1,5 @@
 class Subject:
 
-    def __init__(self, name, mark):
+    def __init__(self, name=""):
         self.name = name
-        self.mark = mark
+        self.marks = []
