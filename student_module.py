@@ -14,3 +14,13 @@ class Student:
     @staticmethod
     def get_all_marks():
         return Subject().marks
+
+
+    @staticmethod
+    def calc_average():
+        sum = 0
+        for i in Subject().marks:
+            sum += i
+
+        conut = len(Subject().marks)
+        return sum / conut
